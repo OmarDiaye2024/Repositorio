@@ -2,462 +2,211 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portafolio</title>
-    <link href="index.css" rel="stylesheet"  type="text/css" >
-    <script src="script.js"></script>
+    <title>Portafolio | Omar Diaye</title>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
     <link rel="icon" href="img/Icono.ico">
 </head>
 <body>
-    <!-- MENU ENCABEZADO -->
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Omar Diaye</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
+
+
+<!-- SOBRE MI -->
+<section id="sobremi" class="sobremi">
+  <div class="contenido-seccion about-grid">
+
+    <!-- IMAGEN -->
+<div class="about-img">
+  <img src="img/45.jpg" alt="Omar Diaye">
+
+  <h2 class="about-name">Omar Diaye</h2>
+
+  <div class="about-socials">
+    <a href="https://www.linkedin.com/in/omar-diaye-6421891b3/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/OmarDiaye2024" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.instagram.com/evans_aravar/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</div>
+
+
+    <!-- TEXTO -->
+    <div class="about-text">
+      <h2 >Diseñador Multimedial · Fullstack Developer<h2>
+      <span class="subtitulo">Sobre mi</span>
+      <p>
+        Soy <strong>Omar Diaye</strong>, Desarrollador Fullstack .NET y Diseñador Multimedial,
+        con experiencia construyendo soluciones web modernas, escalables y orientadas
+        al usuario. Trabajo tanto en frontend como backend, combinando lógica sólida,
+        arquitectura limpia y una fuerte base visual.
+        <br><br>
+        Me adapto rápido a nuevos entornos, disfruto el trabajo en equipo y busco siempre
+        mejorar la calidad del código y la experiencia del producto final.
+      </p>
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/45.jpg" alt="">
-            </div>
-            <h1>Diaye Omar</h1>
-            <h2>Diseñador Multimedial</h2>
-            <div class="redes">
-                <a href="https://www.linkedin.com/in/omar-diaye-6421891b3/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/OmarDiaye"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/evans_aravar/"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <div class="contenido-seccion">
+    <span class="subtitulo">skills</span>
+    <h2>Habilidades</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, React, Blazor y diseño responsive.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Backend .NET</h3>
+        <p>ASP.NET, APIs REST, Microservicios, arquitectura limpia.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>Databases</h3>
+        <p>SQL Server, modelado de datos y optimización de consultas.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Diseño Multimedial</h3>
+        <p>Adobe Suite, diseño gráfico, audiovisual y editorial.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-cubes"></i>
+        <h3>3D & Motion</h3>
+        <p>Blender, Unreal Engine y animaciones para contenido digital.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Trabajo en Equipo</h3>
+        <p>Scrum, Git, comunicación clara y colaboración constante.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- EXPERIENCIA -->
+<section id="experiencia" class="experiencia">
+  <div class="contenido-seccion">
+    <span class="subtitulo">Experiencie</span>
+    <h2>Experiencia</h2>
+    <div class="exp-grid">
+
+      <!-- BZA GROUP -->
+      <div class="exp-card">
+        <h3>Fullstack Developer .NET</h3>
+        <span class="empresa">BZA Group · Argentina</span>
+        <span class="fecha">Oct 2024 – Oct 2025</span>
+        <ul>
+          <li>Desarrollo y mejora de APIs y servicios internos en .NET.</li>
+          <li>Implementación de frontend con Blazor.</li>
+          <li>Aplicación de patrones de diseño y buenas prácticas.</li>
+          <li>Manejo de SQL Server y optimización de consultas.</li>
+          <li>Refactorización, documentación y revisión de código.</li>
+          <li>Trabajo colaborativo con GitLab y flujos de despliegue.</li>
+        </ul>
+      </div>
+
+      <!-- FREELANCE 2023–2024 -->
+      <div class="exp-card">
+        <h3>Fullstack Developer .NET</h3>
+        <span class="empresa">Freelance · Remoto</span>
+        <span class="fecha">Sep 2023 – Oct 2024</span>
+        <ul>
+          <li>Desarrollo y mantenimiento de sistemas en .NET.</li>
+          <li>Arquitectura Microservicios y Hexagonal.</li>
+          <li>Despliegues y desarrollo en la nube con Azure.</li>
+          <li>Construcción y consumo de Web Services.</li>
+        </ul>
+      </div>
+
+      <!-- MAXIREST -->
+      <div class="exp-card">
+        <h3>Diseñador Audiovisual</h3>
+        <span class="empresa">Maxirest S.R.L · Argentina</span>
+        <span class="fecha">Mar 2023 – Ago 2023</span>
+        <ul>
+          <li>Creación y edición de contenido audiovisual para E-learning.</li>
+          <li>Producción completa de módulos audiovisuales.</li>
+          <li>Uso de herramientas avanzadas de edición de video.</li>
+          <li>Optimización de contenido para plataformas digitales.</li>
+        </ul>
+      </div>
+
+      <!-- FREELANCE 2022–2023 -->
+      <div class="exp-card">
+        <h3>Fullstack Developer .NET</h3>
+        <span class="empresa">Freelance · Remoto</span>
+        <span class="fecha">Abr 2022 – Mar 2023</span>
+        <ul>
+          <li>Desarrollo y mantenimiento de proyectos en .NET.</li>
+          <li>Uso de MVC y arquitectura de Microservicios.</li>
+          <li>Frontend con HTML, CSS, JavaScript y React.</li>
+          <li>Gestión de bases de datos SQL Server.</li>
+          <li>Trabajo bajo metodología ágil Scrum.</li>
+        </ul>
+      </div>
+
+      <!-- NT SYSTEM -->
+      <div class="exp-card">
+        <h3>Fullstack Developer .NET</h3>
+        <span class="empresa">NT System · Argentina</span>
+        <span class="fecha">Ene 2020 – Abr 2022</span>
+        <ul>
+          <li>Desarrollo de sitios web para múltiples clientes.</li>
+          <li>Uso de HTML5, CSS3, JS, TypeScript y JQuery.</li>
+          <li>Frameworks: React, Angular y Bootstrap.</li>
+          <li>ASP.NET WebForms, MVC y .NET Core.</li>
+          <li>Bases de datos: SQL Server, Oracle, XML.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <span class="subtitulo">Portfolio</span>
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <a href="diseños.html#Diseños3D" class="card">Diseño 3D</a>
+            <a href="diseños.html#Audiovisual" class="card">Audiovisual</a>
+            <a href="diseños.html#Editorial" class="card">Editorial</a>
+            <a href="diseños.html#DiseñoDeMarca" class="card">Identidad de Marca</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola. Soy Omar</span> Hola ¿Cómo estás? Mi nombre es Omar Diaye, Diseñador Multimedial y Desarrollador Fullstack, con mas de 1 año de experiencia en la industria del diseño.
-              Actualmente estoy buscando Trabajo en el área, aunque también estoy abierto a las posibilidades en puestos como Diseñador Gráfico/Multimedial. Si te gusto mi perfil, contáctame por mi correo electrónico:
-              omargabrieldiaye@gmail.com</p>
+<!-- FOOTER -->
+<footer>
+    <a href="#sobremi" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+</footer>
 
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Cumpleaños</strong>
-                            02-05-2001
-                        </li>
-                        <li>
-                            <strong>Teléfono</strong>
-                            +54 9 1149278225
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            omargabrieldiaye@gmail.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
-                        </li>
-                        <li>
-                            <strong>Dirección</strong>
-                            Glew,Buenos Aires, Argentina
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>Comunicador Multimedial</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-windows"></i>
-                            <span>Windows</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-clock-rotate-left"></i>
-                            <span>HISTORIA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            
-                
-            
-        </div>
-    </section>
-
-    <!-- SECCION SKILLS -->
-    <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Software adobe</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Blender & Unreal Engine 4</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Figma & Gennialy</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>60%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>100%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en Equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creatividad</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>99%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Capacidad</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educación</h3>
-                    <div class="item izq">
-                        <h4>Comunicación Multimedial</h4>
-                        <span class="casa">Instituto Superior de Formación Técnica N°172</span>
-                        <span class="fecha">2020 - 2022</span>
-                        <p> <span class="subtitulo">Conocimientos Adquiridos: </span> <br>
-                          -Desarrollo web: HTML, CSS, JavaScript (Avanzado),
-                          TypeScript/React/Angular.<br>
-                         -Diseño de producciones editoriales y graficas.<br>
-                         -Producción, edición de sonidos y videos para medios
-                         de comunicación.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-
-                    <div class="item izq">
-                      <h4>Pracitcas Profesionles: Programación</h4>
-                      <span class="casa">Centro de Formación Profecional N°403</span>
-                      <span class="fecha">2019 - 2020</span>
-                      <p>
-                        <span class="subtitulo">Conocimientos Adquiridos: </span> <br> 
-                        -Programación C/C++/C#/.NET/.<br>
-                        -Base de datos: SQL/SQLserver/PHP.<br>
-                        -Soluciones de problemas de redes / modelos de red.<br>
-                        -Trabajos relacionados con hardware y Redes <br>
-                         informáticas.<br>
-                        -Desarrollo de sistema Arduino.
-                      </p>
-                      <div class="conectori">
-                          <div class="circuloi"></div>
-                      </div>
-                  </div>
-                    <div class="item izq">
-                        <h4>Técnico en Programación</h4>
-                        <span class="casa">Escuela de Educación Secundaria Técnica N°2</span>
-                        <span class="fecha">2013 - 2019</span>
-                        <p> <span>Conocimientos Adquiridos: </span>
-                          Programación C/C++/C#/.NET/.
-                          Base de datos: SQL/SQLserver/PHP
-                          Soluciones de problemas de redes / modelos de red.
-                          Trabajos relacionados con hardware y Redes 
-                          informáticas.
-                          Desarrollo web Front-End/Back-End: HTML/CSS/JavaScript (Intermedio).
-                          </p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="col derecha">
-                    <h3>Experiencia laboral</h3>
-                    
-                    <div class="item der">
-                        <h4>Diseñador Audiovisual</h4>
-                        <span class="casa">Maxirest S.R.L</span>
-                        <span class="fecha">Marzo 2023 - Agosto 2023</span>
-                        <p>Desarrollo de piezas audiovisuales y maquetado web para contenido empresarial.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Fullstack Developer</h4>
-                        <span class="casa">Freelance</span>
-                        <span class="fecha"> Abril 2020 - Marzo 2023</span>
-                        <p> Desarrollo y mantenimiento de proyectos basado en tecnología .NET
-                            utilizando lenguajes como HTML, CSS, Javascript, React,
-                             Bootstrap entre otras
-                            • Uso de Patrón de arquitectura MVC
-                            • Manejo de BDD con SQL Server Manager Studio editando Consultas
-                            • Uso de metodología ágil Scrum.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Fullstack Developer</h4>
-                        <span class="casa">NT System Work</span>
-                        <span class="fecha"> Enero 2020 - Marzo 2022</span>
-                        <p>Experiencia realizando webs, para distintos clientes junto a NT system
-                          utilizando herramientas web como Bootstrap y lenguajes como HTML5, CSS3, JS, TypeScript y Jquery.
-                           también utilizando frameworks como Bootstrap y React.
-                          Uso de lenguaje .NET mediante ASP .NET C# webforms , .NET MVC Y .NET CORE, SQLserver</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                      <h4>Diseñador Audiovisual</h4>
-                      <span class="casa">White Hawks Esports</span>
-                      <span class="fecha"> Diciembre 2018 - Enero 2020</span>
-                      <p>Encargado de planteamientos y edición de videos promocionales utilizando herramientas de edición avanzadas y el uso de herramientas de maquetado web: HTML5, CSS3, JS y edición utilizando software
-                        como adobe Premier, After Effects.
-                      </p>
-                      <div class="conectord">
-                          <div class="circulod"></div>
-                      </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <a href="diseños.html#Diseños3D">
-                    <div class="proyecto">
-                        <img  src="img/Montaña 3d.png" alt="" width=100%  height=100% >
-                        <div class="overlay">
-                            <h3  style="color: white;">Diseño 3D</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="diseños.html#Audiovisual">
-                    <div class="proyecto" >
-                    <video width=100%  height=100%  autoplay loop muted >
-                                <source src="Videos/1.mp4" type="video/mp4">
-                                </video>
-                        <div class="overlay">
-                            <h3 style="color: white;">Diseño Audiovisual</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="diseños.html#Editorial">
-                    <div class="proyecto">
-                        <img src="editorial/Poster_1.png" alt="" width=100%  height=100% >
-                        <div class="overlay">
-                            <h3>Diseño Editorial</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                
-                <a href="diseños.html#DiseñoDeMarca">
-                    <div class="proyecto" style="margin-left:-30%; margin-top: -80%">
-                        <img src="img/cartel 2.png" alt="" >
-                        <div class="overlay">
-                            <h3>Identidad Marcaria</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                
-                <a href="diseños.html#EdicionDeImagenes">
-                    <div class="proyecto" style="margin-left:-87%; margin-top: -70%;">
-                        <img src="img/imagen3.jpg" alt="" width=400%  height=400%  >
-                        <div class="overlay">
-                            <h3>Edición de Imagenes </h3>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CONTACTO -->
-    <section  id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <form id="myForm" action="https://formsubmit.co/e39aafd556f3331dcfabaabc71f8a26d" method="POST" class="col">
-                    <input type="text" placeholder="Tú Nombre" name="name" requeried>
-                    <input type="text" placeholder="Número telefónico" name="phone" required>
-                    <input type="email" placeholder="Dirección de correo" id="user-email" name="Email" required >
-                    <input type="text" placeholder="Tema" required>
-                    <textarea class="textarea" name="comments" id=""  placeholder="Mensaje" required ></textarea>
-                    <button type="submit">
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </form>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/mapa.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Buenos Aires, Argentina
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Telefono: 1149278225
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>Email:omargabrieldiaye@gmail.com
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer >
-        <a href="#inicio" class="arriba" style="margin-top: 20px;">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.linkedin.com/in/omar-diaye-6421891b3/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://github.com/OmarDiaye"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/evans_aravar/"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </footer>
-
-    <script>
- 
-    </script>
-
-   
+<script src="index.js"></script>
 </body>
 </html>
